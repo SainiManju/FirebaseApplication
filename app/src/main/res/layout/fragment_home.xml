@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/activity_home_viewProfile_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Profile"
+        android:textSize="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="100dp" />
+        <Button
+            android:id="@+id/activity_home_Admin_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Admin Profile"
+            android:textSize="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@id/activity_home_viewProfile_btn"
+
+            />
+    <Button
+        android:id="@+id/activity_home_AddCountry_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Country"
+        android:textSize="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@+id/activity_home_Admin_btn"
+        />
+    <Button
+        android:id="@+id/activity_home_AddClub_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Club"
+        android:textSize="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@+id/activity_home_AddCountry_btn"
+        />
+    <Button
+        android:id="@+id/activity_home_ViewTeam_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Team"
+        android:textSize="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@id/activity_home_AddClub_btn"
+        />
+    </RelativeLayout>
+
+</FrameLayout>
